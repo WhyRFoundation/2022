@@ -695,7 +695,7 @@ nav.navbar .navbar-toggle.collapsed .bottom-bar {
     color: #2990CB;
   }
   nav.navbar ul.navbar-nav > li.show-child ul {
-    display: block !important;
+    display: inline-block !important;
   }
   nav.navbar ul.navbar-nav ul {
     padding: 20px 30px;
