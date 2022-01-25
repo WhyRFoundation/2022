@@ -1932,7 +1932,10 @@ img.rounded {
   background: #55ACEE;
   color: white;
 }
-
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+}
 /*************************
  * GRID SCHEDULE LAYOUT
  *************************/
