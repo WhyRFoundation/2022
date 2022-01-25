@@ -261,6 +261,10 @@ textarea {
  */
 button {
   overflow: visible;
+  margin:auto;
+  display:block;
+  color: #fff;
+  background: #2990CB;
 }
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -1930,6 +1934,11 @@ img.rounded {
 
 .fa-linkedin {
   background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #FF0000;
   color: white;
 }
 
