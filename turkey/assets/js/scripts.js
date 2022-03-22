@@ -146,7 +146,7 @@ function initSliders() {
         pagination: '.swiper-pages',
         paginationClickable: true,
         paginationBulletRender: function (swiper, index, className) {
-            return '<span class="btn btn-blue btn-blue-border btn-sm ' + className + '">Day ' + (index + 1) + '</span>';
+            return '<span class="btn btn-blue btn-blue-border btn-sm ' + className + '">Nisan ' + (index + 14) + '</span>';
         }		
     });
 
