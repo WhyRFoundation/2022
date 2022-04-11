@@ -1,3 +1,7 @@
+body {
+  text-align: justify;
+}
+
 p.caption {
   color: #777;
   margin-top: 10px;
@@ -11,4 +15,49 @@ pre {
 }
 pre code {
   white-space: inherit;
+}
+
+.summary > li:first-child {
+  height: auto !important; 
+}
+
+.book .book-summary ul.summary li a, .book .book-summary ul.summary li span {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: none;
+    color: #364149;
+    background: 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    position: relative;
+}
+
+.book .book-summary ul.summary li.active>a {
+    color: #6eb9d3 !important;
+    border-left: solid 4px;
+    border-color: #6eb9d3;
+    padding-left: 11px !important;
+}
+
+.book .book-summary ul.summary li a, .book .book-summary ul.summary li span {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: none;
+    color: #364149;
+    background: 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre-wrap;
+    position: relative;
+}
+
+.toc-logo img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.book .book-summary {
+
+    background: #ffffff;
 }

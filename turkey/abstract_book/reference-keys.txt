@@ -1,6 +1,4 @@
-about
-usage
-render-book
-preview-book
-içerik
-url-your-book-url-like-httpsbookdown.orgyihuibookdown
+moderatör
+panelistler
+moderatör-1
+panelistler-1
